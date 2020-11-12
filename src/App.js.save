@@ -1,0 +1,37 @@
+import React from 'react'
+import { Title, TasksList, InputTask } from './Components'
+
+export default class App extends React.Component{
+	constructor(props){
+		super(props);
+		this.state = {
+			newTask: "",
+			tasksList: []
+		}
+	}
+
+	setNewTask = (update) => {
+		this.setState({
+			newTask: update
+		});
+	}
+
+	getTasksList = () => {
+		this.setState({
+			tasksList: this.state.tasksList, this.state.newTask]
+		});
+		return this.state.tasksList;
+	}
+
+	render(){
+		return (
+			<div className="App">
+				<Title />
+			  	<p>Lista: { this.getTasksList }</p>
+				<TasksList getArray={this.getTasksList} />
+				<InputTask newTask={this.setNewTask} />
+			</div>
+		)
+	}
+}
+
