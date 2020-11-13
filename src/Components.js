@@ -7,10 +7,6 @@ export function Title() {
 }
 
 export class TaskItem extends React.Component {
-	editClicked = event => {
-		this.props.handleEdit(this.props.id, "Editado");
-	};
-
 	deleteClicked = event => {
 		this.props.handleDel(this.props.id);
 	};
@@ -19,8 +15,6 @@ export class TaskItem extends React.Component {
 		return(
 			<li>
 				{ this.props.children }
-				<button type="button" 
-					onClick={ this.editClicked } >Edit</button>
 				<button type="button" 
 					onClick={ this.deleteClicked } >Delete</button>
 			</li>
