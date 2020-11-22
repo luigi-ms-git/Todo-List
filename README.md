@@ -1,6 +1,11 @@
-# Simple Todo List App
+# Todo-List
 
-This app was created to learn about ReactJS.
+A simple app created to learn about ReactJS.
+
+<p>
+ <img src="https://img.shields.io/static/v1?label=Lib&message=ReactJS&color=blueviolet&logo=React" />
+ <img src="https://img.shields.io/static/v1?label=Env&message=NodeJS&color=green&logo=Node.js" />
+</p>
 
 ## How it works
 
@@ -15,3 +20,15 @@ In addition to **InputTask**, **App** renders the task list in numerical order u
 The **TaskItem** was created thinking about the delete task feature. Each iteration passes the array item to this component as its children, and the item id is passed via _prop_. **TaskItem** renders an li element, containing the task and a button to delete the task. When the button is clicked, the component tells to parent to remove the task passing the task id. </br>
 And **Title** just fucking renders a h1. Seriously.
 
+## Tecnologias utilizadas
+
+1. Simulador de terminal [Termux](https://play.google.com/store/apps/details?id=com.termux)
+2. Editor de texto Nano
+3. Ambiente [NodeJS](https://nodejs.org/en/)
+3. Library [ReactJS](https://reactjs.org)
+
+## Autor
+Luigi Moraes
+
+<img src="https://simpleicons.org/icons/github.svg" width="15" alt="github-icon" /> [Github](https://github.com/luigimoraes)
+<img src="https://simpleicons.org/icons/linkedin.svg" width="15" alt="linkedin-icon" /> [LinkedIn](https://www.linkedin.com/in/santos-luigi-moraes)
