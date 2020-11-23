@@ -3,8 +3,8 @@
 A simple app created to learn about ReactJS.
 
 <p>
- <img src="https://img.shields.io/static/v1?label=Lib&message=ReactJS&color=blueviolet&logo=React&logoColor=white" />
- <img src="https://img.shields.io/static/v1?label=Env&message=NodeJS&color=green&logo=Node.js&logoColor=white" />
+ <img src="https://img.shields.io/static/v1?label=React.js&message=17.0.1&color=blueviolet&logo=React&logoColor=white" />
+ <img src="https://img.shields.io/static/v1?label=NodeJS&message=14.14.0&color=green&logo=Node.js&logoColor=white" />
 </p>
 
 ## How it works
