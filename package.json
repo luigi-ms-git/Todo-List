@@ -2,6 +2,7 @@
   "name": "todo-app-list",
   "version": "0.1.0",
   "private": true,
+  "license": "GNU AGPLv3"
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^12.1.2",
@@ -34,5 +35,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "author": {
+    "name": "Luigi "Moraes",
+    "email": "luigimoraessantos@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luigi-ms-git/Todo-List"
   }
 }
